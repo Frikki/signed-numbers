@@ -3,6 +3,9 @@
     "@motorcycle/tslint"
   ],
   "rules": {
-    "class-name": false
+    "class-name": false,
+    "no-unused-variable": [
+      false
+    ]
   }
 }

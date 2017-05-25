@@ -1,4 +1,4 @@
-import { PositiveInteger, PositiveIntegerBehavior, positiveInteger } from './'
+import { PositiveInteger, SignedNumberBehavior, positiveInteger } from '../'
 
 import { eq } from '@briancavalier/assert'
 
@@ -36,7 +36,8 @@ describe(`PositiveInteger`, () => {
     })
 
     it(`can override default behavior`, () => {
-      const defaultInfinity: PositiveIntegerBehavior = (n: number) => n || Infinity
+      const defaultInfinity: SignedNumberBehavior<PositiveInteger> =
+        (n: number) => n || Infinity
 
       const sut = positiveInteger(0, defaultInfinity)
 

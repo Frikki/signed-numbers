@@ -1,17 +1,14 @@
-import { PositiveInteger } from '../'
+import { PositiveInteger, SignedNumberBehavior } from '../'
 
 export function nonnegativeInteger(
   n: number,
-  f: NonnegativeIntegerBehavior = defaultBehavior): NonnegativeInteger
+  f: SignedNumberBehavior<NonnegativeInteger> = defaultBehavior): NonnegativeInteger
 {
   return f(n)
 }
 
-export type NonnegativeIntegerBehavior = (n: number) => NonnegativeInteger
-
-function defaultBehavior(n: number): NonnegativeInteger {
-  return Math.abs(Math.round(n)) || DEFAULT_VALUE
-}
+const defaultBehavior: SignedNumberBehavior<NonnegativeInteger> =
+  (n: number) => Math.abs(Math.round(n)) || DEFAULT_VALUE
 
 const DEFAULT_VALUE = 0
 

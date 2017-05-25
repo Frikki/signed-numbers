@@ -1,4 +1,4 @@
-import { NonnegativeInteger, NonnegativeIntegerBehavior, nonnegativeInteger } from './'
+import { NonnegativeInteger, SignedNumberBehavior, nonnegativeInteger } from '../'
 
 import { eq } from '@briancavalier/assert'
 
@@ -32,7 +32,7 @@ describe(`NonnegativeInteger`, () => {
     })
 
     it(`can override default behavior`, () => {
-      const defaultInfinity: NonnegativeIntegerBehavior =
+      const defaultInfinity: SignedNumberBehavior<NonnegativeInteger> =
         (n: number) => n || Infinity
 
       const sut = nonnegativeInteger(NaN, defaultInfinity)

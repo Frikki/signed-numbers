@@ -4,4 +4,18 @@
 
 ## Usage
 
-_Coming soon!_
+Clone the repository:
+
+`git clone https://github.com/Frikki/signed-numbers.git`
+
+Install dependencies:
+
+`yarn`
+
+Build:
+
+`yarn build`
+
+## API
+
+- [PositiveInteger](src/PositiveInteger/README.md)

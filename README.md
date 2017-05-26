@@ -1,21 +1,26 @@
-# signed-numbers
+# Signed Numbers
 
 > A collection of arithmetic signed number types.
 
-## Usage
+## Installation
 
-Clone the repository:
+_Signed Numbers_ is available as the _signed-numbers_ package on [npm][1].
 
-`git clone https://github.com/Frikki/signed-numbers.git`
+First install the package from npm.
 
-Install dependencies:
+With `npm`:
 
-`yarn`
+```sh
+npm install signed-numbers
+```
 
-Build:
-
-`yarn build`
+With `yarn`:
+```sh
+yarn add signed-numbers
+```
 
 ## API
 
 - [PositiveInteger](src/PositiveInteger/README.md)
+
+[1]: https://npmjs.com

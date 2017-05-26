@@ -2,7 +2,7 @@
   "name": "signed-numbers",
   "description": "A collection of arithmetic signed numbers types.",
   "repository": "https://github.com/Frikki/signed-numbers",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",

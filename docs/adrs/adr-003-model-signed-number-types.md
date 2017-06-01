@@ -5,7 +5,7 @@ Tylor Steinberger <tlsteinberger@gmail.com>
 
 ## Status
 
-**Proposed** | ~~Accepted~~ | ~~Deprecated~~ | ~~Superceded~~
+~~Proposed~~ | **Accepted** | ~~Deprecated~~ | ~~Superseded~~
 
 ## Context
 
@@ -39,7 +39,7 @@ it is in accord with the functional programming paradigm.
 We could forget about the hole idea and just use the native `Number` type. This 
 may be okay because we have dealt with that type since the beginning of 
 JavaScript. This may also be okay because we can use native arithmetic 
-calculations. It may not be okay because it leaves our software fragile an very 
+calculations. It may not be okay because it leaves our software fragile and very 
 prone to errors.
 
 ## Decision

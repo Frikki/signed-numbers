@@ -5,7 +5,7 @@ Tylor Steinberger <tlsteinberger@gmail.com>
 
 ## Status
 
-~~Proposed~~ | **Accepted** | ~~Depreciated~~ | ~~Superceded~~
+~~Proposed~~ | ~~Accepted~~ | ~~Deprecated~~ | **Superceded**
 
 ## Context
 
